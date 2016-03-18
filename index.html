@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <!-- css que controla los estilos de la aplicacion -->
+  <link rel="stylesheet" href="bower_components/Materialize/bin/materialize.css">
+  <link rel="stylesheet" href="css/comida.css">
+  <!-- firebase y jquery -->
+  <!-- <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script> -->
+  <script src="bower_components/firebase/firebase.js"></script>
+
+  <!-- iconos -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+  <title>Home comida</title>
+</head>
+<body>
+
+  <div id="contenedor_home" class="col s10 m6 offset-s1 offset-m3">
+
+    <div class="logo">
+      <img src="img/logo.png" alt="">
+    </div>
+    <div id="inpus">
+      <div >
+        <div class="row">
+          <input class="col s10 m6 offset-s1 offset-m3" type="text" id="nombre" placeholder="ingresa tu nombre">
+          <input class="col s10 m6 offset-s1 offset-m3" type="email" id="password" placeholder="ingresa tu password">
+        </div>
+      </div>
+    </div>
+    <a href="#"><h5>¿olvidaste tu contraseña?</h5></a>
+    <a href="plan.html">Login</a>
+
+    <div class="icon">
+      <i class= "fa fa-facebook" ></i>
+      <i class= "fa fa-twitter" ></i>
+      <i class= "fa fa-google-plus" ></i>
+    </div>
+    <a href="#"><h6>terminos y condiciones</h6></a>
+  </div>
+
+  <script src="bower_components/Materialize/bin/materialize.js"></script>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="js/llamadas.js"></script>
+
+</body>
+</html>

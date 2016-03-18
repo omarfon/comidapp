@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <!-- css que controla los estilos de la aplicacion -->
+  <link rel="stylesheet" href="css/comida.css">
+  <!-- firebase y jquery -->
+  <!-- <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script> -->
+  <script src="bower_components/firebase/firebase.js"></script>
+  <script src="bower_components/moment/moment.js"></script>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <link rel="stylesheet" href="bower_components/Materialize/bin/materialize.css">
+  <!-- iconos -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <title>Home comida prueba</title>
+</head>
+<body>
+
+  <h4 class="center">crea tu receta</h4>
+  <div class="row">
+    <form id="cero" action="">
+      <div class="col s10 m6 offset-s1 offset-m3"><input type="text" id="nombre_receta" placeholder="ingresa el nombre de la receta"></div>
+      <div class="col s10 m6 offset-s1 offset-m3"><input type="number" id="cantidad_personas" placeholder="ingresa la cantidad de personas"></div>
+      <div class="col s10 m6 offset-s1 offset-m3"><input type="number" id="tiempo_preparacion" placeholder="ingresa el tiempo de preparacion"></div>
+
+      <div class="col s8 m4 offset-s1 offset-m4 ingredientes">
+
+
+        <input type="text" class="ingreProducto" placeholder="ingresa ingredientes">
+        <input type="number" id="cantidad" class="ingreCantidad" placeholder="cantidad">
+
+      </div>
+
+      <div class="col s8 m4 offset-s1 offset-m3"><a href="#" onclick="AgregarCampos();">Agregar Campos</a></div>
+      <div id="campos">
+      </div>
+
+      <div class="col s10 m6 offset-s1 offset-m3 materialize-textarea"><input type="text" id="elaboracion" placeholder="ingresa la elaboracion"></div>
+
+      <div class="col s10 m6 offset-s1 offset-m3"><a id="enviar" href="#">aceptar</a></div>
+    </form>
+  </div>
+
+  <script src="js/crear.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+.titulo_receta {
+  margin-left: 1em;
+  color: #f7932b;
+  font-family: sans-serif;
+  font-size: 2em;
+  font-weight: 200;
+  margin-top: -.2em;
+}
+
+.datos_receta {
+  padding-left: 1.5em;
+  margin-top: -.7em;
+  color: #7c837b;
+  font-size: 1.2em;
+  padding-bottom: .5em;
+  border-bottom: solid 1px #b9bcc2;
+}
+
+.agregar_receta {
+  text-align: right;
+  padding-right: 2em;
+  width: 100%;
+  display: block;
+}
+
+#contenedor_home {
+  text-align: center;
+}
+
+.logo {
+  margin-top: 2em;
+}
+
+input.calendario {
+  width: 15% !important;
+  text-align: right !important;
+  margin-left: 84% !important;
+  margin-top: -10em !important;
+}
+
+.cuadros {
+  width: 50%;
+  height: 33vh;
+  padding: 1em;
+  border: 2px solid white;
+  display: inline-block;
+  background-color: red;
+  color: #fff;
+  font-size: 1em;
+}
+
+.enlace {
+  margin-top: 10%;
+  margin-left: 60%;
+  color: #fff;
+}
+.cuadrado{
+  height: 50vh;
+  width: 50%;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border: 2px solid white;
+  text-align: center;
+}
+.cuadrado a{
+  font-size: 2em;
+  color:#fff;
+}
+#contenedor_semana{
+  margin: 0;
+  padding: 0;
+}
